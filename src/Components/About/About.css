@@ -1,0 +1,35 @@
+.banner{
+   background-image: url("https://images.pexels.com/photos/247899/pexels-photo-247899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+ 
+   
+}
+
+.about-us{
+    background-color: #232323;
+    color: white;
+    padding: 5%;
+    border-radius: 5px;
+}
+.about-container{
+    background-color: #232323;
+    color: white;
+    padding: 5%;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 7%;
+}
+.card {
+    margin: 3%;
+ color: black;
+ background-color: whitesmoke;
+}
+
+
+.about-us{
+    display: flex;
+    margin-top: 5%;
+}
+.number{
+color: #ff0505;
+font-size: 1.5em;
+}
