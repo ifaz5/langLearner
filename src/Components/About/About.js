@@ -40,9 +40,10 @@ const About = () => {
             <div className=" container ">
                 <h1>WHY OUR STUDENTS ARE SATISFIED ON US!</h1>
             </div>
-            <div class="row container about-container  ">
+
+            <div class="row container about-container student-bg ">
                 <div class="col-sm-6">
-                    <div class="card  ">
+                    <div class="card  transparent">
                         <div class="card-body p-5  ">
                             <h5 class="card-title "><span className="number">1.</span>Our Quick Results</h5>
                             <p class="card-text ">Cur nixus mori? Pol. Sunt hippotoxotaes convertam festus, brevis buboes. Brevis terror nunquam amors.</p>
@@ -51,7 +52,7 @@ const About = () => {
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="card">
+                    <div class="card transparent">
                         <div class="card-body p-5  ">
                             <h5 class="card-title "><span className="number">2.</span>Our Weekly Exam</h5>
                             <p class="card-text ">Indexs ortum! Classiss sunt solitudos de altus adgium. Castus, regius triticums superbe anhelare.</p>
@@ -60,7 +61,7 @@ const About = () => {
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="card ">
+                    <div class="card transparent">
                         <div class="card-body p-5">
                             <h5 class="card-title "><span className="number">3.</span>Daily Support Session</h5>
                             <p class="card-text ">Lura, capio, et diatria. Mori recte ducunt ad alter plasmator. Experimentum sapienter ducunt ad audax.</p>
@@ -69,7 +70,7 @@ const About = () => {
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="card ">
+                    <div class="card transparent">
                         <div class="card-body p-5 ">
                             <h5 class="card-title "><span className="number">4.</span>Best Teacher</h5>
                             <p class="card-text  ">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -80,6 +81,7 @@ const About = () => {
 
 
             </div>
+
             <Footer></Footer>
 
         </div>

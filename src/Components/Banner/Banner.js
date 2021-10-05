@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Menubar from "../Menubar/Menubar";
 
 import "./Banner.css";
@@ -16,7 +17,9 @@ const Banner = () => {
                         <p className="text-white text-center mt-3">
                             Knowing English increases your chances of getting a good job in a multinational company within your home country or for finding work abroad. It's also the language of international communication, the media and the internet, so learning English is important for socialising and entertainment as well as work!
                         </p>
-                        <button className="mt-3 about-btn">About Us</button>
+                        <Link to={`/about/`}>
+                            <button className="mt-3 about-btn">About Us</button>
+                        </Link>
                     </div>
                     <div className="col-md-6"></div>
                 </div>

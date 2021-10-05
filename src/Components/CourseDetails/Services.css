@@ -1,15 +1,31 @@
-.details{
+/* .details{
     background-color: whitesmoke;
 }
-.card-services img{
-    width: 400px;
-	height: auto;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
+
 .card-services:hover{
     width: 300px;
 }
+ */
+ .card-services img{
+    width: 80%;
+	
+}
+ * {
+    box-sizing: border-box;
+  }
+.card-services {
+    position: relative;
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+.card-services  img {vertical-align: middle;}
+.card-services  .card-body {
 
-
-
+margin-left: 10%;    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 80%;
+    padding: 10px;
+  }
